@@ -149,7 +149,7 @@
                   <v-text-field v-model="editedItem.nama" label="Nama Lengkap"></v-text-field>
                 </v-col>
                 <v-col cols="12" sm="6" md="6">
-                  <v-combobox v-model="editedItem.gender" label="Jenis Kelamin" :items="items"></v-combobox>
+                  <v-combobox v-model="editedItem.gender" label="Jenis Kelamin" :items="items.gender"></v-combobox>
                 </v-col>
                 <v-col cols="12" sm="6" md="6">
                   <v-text-field v-model="editedItem.no_hp" label="No HP"></v-text-field>
