@@ -4,6 +4,7 @@ export default {
   ssr:false,
   mode:'spa',
   server : {
+    host:'127.0.0.1',
     port : 3001, //default 3000
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
